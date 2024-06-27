@@ -1,0 +1,60 @@
+.navBarContainer {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rightSection{
+    display: flex;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+    width: 40vw;
+}
+
+.logoSection img {
+    width: 25%;
+}
+
+.logoSection h1{
+    font-size: 2rem;
+}
+
+.linksSection {
+    letter-spacing: 0.15rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.linksSection span{
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.linksSection a{
+    text-decoration: none;
+    color: black;
+}
+
+.linksSection a:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.avatarSection{
+    width: 80px;
+    display: inline-block;
+}
+
+.avatarSection img{
+    width: 80%;
+}

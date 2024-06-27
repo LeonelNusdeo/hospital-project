@@ -1,0 +1,59 @@
+.subtitle {
+    margin: 1rem 0 0 0;
+}
+.smallPrint{
+    font-size: 0.75rem;
+    margin: 0 0 1rem 0;
+}
+
+.inputContainer {
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.inputStyle {
+    font-family: Roboto;
+    color: black;
+    padding: 14px;
+    width: 270px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.submitButton {
+    margin: 2rem 0rem 1.5rem 0rem;
+    padding: 14.5px 16px;
+    width: 300px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #0d6efd;
+    color: white;
+}
+
+.submitButton:hover {
+    background-color: #0b5ed7;
+}
+
+.errorWarning {
+    font-size: 0.75rem;
+    color: red;
+    margin: 3px 0px 0px 0px;
+}
+
+.leftHalf {
+    width: 50vw;
+}
+
+.rightHalf {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightHalf img{
+    width: 50vh;
+    padding-top: 50px;
+}

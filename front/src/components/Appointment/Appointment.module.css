@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  padding: 0px 8px;
+  margin-bottom: 10px;
+}
+
+.container h4{
+  font-weight: normal;
+  width: 25%;
+}

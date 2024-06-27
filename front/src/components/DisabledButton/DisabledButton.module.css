@@ -1,0 +1,48 @@
+.button {
+    width: 160px;
+    height: 46px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background: gray;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.15);
+    background: #808080;
+  }
+  
+  .button,
+  .button span {
+    transition: 200ms;
+  }
+  
+  .text {
+    transform: translateX(35px);
+    color: white;
+    font-weight: bold;
+  }
+  
+  .icon {
+    position: absolute;
+    border-left: 1px solid #808080;
+    transform: translateX(110px);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  svg {
+    width: 15px;
+    fill: #eee;
+  }
+  
+  .button:focus {
+    outline: none;
+  }
+  
+  .button:active .icon svg {
+    transform: scale(0.8);
+  }
+  
